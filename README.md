@@ -7,4 +7,4 @@ The contract uses payable functions (as certain functions require little payment
 
 The main file is "external contracts.sol" with additional two external dependent contracts needed - "destroyable.sol", "ownable.sol".
 
-It is also possible to use the last file "external contract call.sol" as a shortcut which calls the deployed contract on the Ethereum blockchain and uses it. 
+It is also possible to use the last file "external contract call.sol" as a shortcut which calls the deployed contract on the Ethereum Ropsten blockchain and uses it. 
