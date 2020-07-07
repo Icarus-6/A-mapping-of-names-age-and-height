@@ -5,4 +5,6 @@ My first simple smart contract running on Solidity which can create a list of pe
 
 The contract uses payable functions (as certain functions require little payments, inheritance, external contracts (destroyable.sol - with the code for self-destruct, and ownable.sol - indicating that only the owner can call the function)
 
-The main file is external contracts.sol with additional two external dependent contracts needed - destroyable.sol, ownable.sol.
+The main file is "external contracts.sol" with additional two external dependent contracts needed - "destroyable.sol", "ownable.sol".
+
+It is also possible to use the last file "external contract call.sol" as a shortcut which calls the deployed contract on the Ethereum blockchain and uses it. 
