@@ -2,10 +2,7 @@ import "./Ownable.sol";
 import "./Destroyable.sol";
 pragma solidity 0.5.12;
 
-
 // we can interact with already existing contracts on the blockchain
-// we'll call the create person function from another contract
-
 
 contract HelloWorld is Ownable, Destroyable{
 
