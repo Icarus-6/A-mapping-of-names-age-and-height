@@ -96,5 +96,4 @@ function withdrawAll() public onlyOwner returns(uint){
     msg.sender.transfer(toTransfer);
     return toTransfer;
 }
-
 }
