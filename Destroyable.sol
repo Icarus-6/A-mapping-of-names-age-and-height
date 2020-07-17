@@ -7,5 +7,4 @@ contract Destroyable is Ownable{
         address payable receiver = msg.sender;
         selfdestruct(receiver);  // `sender` is the owners address but it's not payable so we need to turn it payable above
     }
-
 }
