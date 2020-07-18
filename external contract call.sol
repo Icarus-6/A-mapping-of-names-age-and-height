@@ -32,9 +32,5 @@ contract ExternalContract{
     }
     
     // When called after deployment, only the creator and msg.sender of the external contract can call the createdPerson after its creation
-    // the owner of the original contract cannot call it since the other person simply borrowed the functionality
-    
-    
-    
-    
+    // the owner of the original contract cannot call it since the other person simply borrowed the functionality      
 }
